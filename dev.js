@@ -40,3 +40,14 @@ client.on('message', message => {
     }
     if(message.content.startsWith('$$m')){
         music.processCommand(message) }
+}
+
+
+});
+
+    
+ });
+    
+ 
+    
+    client.login(config.token)
